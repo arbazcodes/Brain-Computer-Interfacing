@@ -11,8 +11,8 @@ start2 = 9 * fs + 1;
 end2 = 12 * fs;
 
 
-channelC3 = 5;  
-channelC4 = 6;  
+channelC3 = 3;  
+channelC4 = 4;  
 
 signalC3_1 = eegData(start1:end1, channelC3);
 signalC3_2 = eegData(start2:end2, channelC3);
