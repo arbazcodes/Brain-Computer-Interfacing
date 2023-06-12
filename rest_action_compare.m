@@ -62,7 +62,7 @@ plot(time1_C3_action, signalC3_1_action);
 hold off;
 xlabel('Time (s)');
 ylabel('Amplitude');
-title('C3');
+title('Case 1');
 legend('rest', 'action');
 
 subplot(3, 1, 2);
@@ -72,7 +72,7 @@ plot(time2_C3_action, signalC3_2_action);
 hold off;
 xlabel('Time (s)');
 ylabel('Amplitude');
-title('C3');
+title('Case 2');
 legend('rest', 'action');
 
 subplot(3, 1, 3);
@@ -82,8 +82,10 @@ plot(time3_C3_action, signalC3_3_action);
 hold off;
 xlabel('Time (s)');
 ylabel('Amplitude');
-title('C3');
+title('Case 3');
 legend('rest', 'action');
+
+sgtitle('C3 Channel');
 
 figure;
 subplot(3, 1, 1);
@@ -93,7 +95,7 @@ plot(time1_C4_action, signalC4_1_action);
 hold off;
 xlabel('Time (s)');
 ylabel('Amplitude');
-title('C4');
+title('Case 1');
 legend('rest', 'action');
 
 subplot(3, 1, 2);
@@ -103,7 +105,7 @@ plot(time2_C4_action, signalC4_2_action);
 hold off;
 xlabel('Time (s)');
 ylabel('Amplitude');
-title('C4');
+title('Case 2');
 legend('rest', 'action');
 
 subplot(3, 1, 3);
@@ -113,5 +115,6 @@ plot(time3_C4_action, signalC4_3_action);
 hold off;
 xlabel('Time (s)');
 ylabel('Amplitude');
-title('C4');
+title('Case 3');
 legend('rest', 'action');
+sgtitle('C4 Channel');
