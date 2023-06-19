@@ -2,12 +2,12 @@ clc
 clear all
 close all
 
-fileData = importdata('hassan2.txt');
+fileData = importdata('case1.txt');
 header = fileData.textdata;
 eegData = fileData.data;
 
 originalSamplingRate = 128;
-targetSamplingRate = 7; 
+targetSamplingRate = 12; 
 
 start1 = 1.5 * originalSamplingRate + 1;
 end1 = 5 * originalSamplingRate;
