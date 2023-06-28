@@ -2,23 +2,23 @@ clc
 clear all
 close all
 
-fileData1 = importdata('case1.txt');
+fileData1 = importdata('arbazgame.txt');
 header1 = fileData1.textdata;
 eegData1 = fileData1.data;
 
-fileData2 = importdata('arbaz_test data.txt');
+fileData2 = importdata('tayyabgame.txt');
 header2 = fileData2.textdata;
 eegData2 = fileData2.data;
 
-fileData3 = importdata('hassan2.txt');
+fileData3 = importdata('hassangame.txt');
 header3 = fileData3.textdata;
 eegData3 = fileData3.data;
 
 originalSamplingRate = 128;
-targetSamplingRate = 30; 
+targetSamplingRate = 10; 
 
-start1 = 4 * originalSamplingRate + 1;
-end1 = 9 * originalSamplingRate;
+start1 = 1.5 * originalSamplingRate + 1;
+end1 = 25 * originalSamplingRate;
 
 channelC3 = 5;
 channelC4 = 6;

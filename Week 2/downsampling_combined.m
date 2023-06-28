@@ -15,7 +15,7 @@ header3 = fileData3.textdata;
 eegData3 = fileData3.data;
 
 originalSamplingRate = 128;
-targetSamplingRate = 12; 
+targetSamplingRate = 128; 
 
 start1 = 4 * originalSamplingRate + 1;
 end1 = 9 * originalSamplingRate;

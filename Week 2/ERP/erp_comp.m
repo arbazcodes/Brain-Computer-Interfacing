@@ -20,8 +20,8 @@ fs = 128;
 start1 = 3.5 * fs + 1;
 end1 = 7 * fs;
 
-channelO1 = 7;  
-channelO2 = 8;  
+channelO1 = 5;  
+channelO2 = 6;  
 
 signalO1_1 = eegData1(start1:end1, channelO1);
 signalO2_1 = eegData1(start1:end1, channelO2);

@@ -2,7 +2,7 @@ clc
 clear all
 close all
 
-fileData1 = importdata('tayyab.txt');
+fileData1 = importdata('tayyabst.txt');
 header1 = fileData1.textdata;
 eegData1 = fileData1.data;
 
@@ -15,7 +15,7 @@ header3 = fileData3.textdata;
 eegData3 = fileData3.data;
 
 originalSamplingRate = 128;
-targetSamplingRate = 40; 
+targetSamplingRate = 30; 
 
 start1 = 3.5 * originalSamplingRate + 1;
 end1 = 7 * originalSamplingRate;
